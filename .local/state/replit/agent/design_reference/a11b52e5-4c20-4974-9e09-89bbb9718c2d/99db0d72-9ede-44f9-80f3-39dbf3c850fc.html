@@ -1,0 +1,871 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shengze Group - Leading Solar Energy & Renewable Solutions Provider</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-blue': '#1E40AF',
+                        'secondary-green': '#059669',
+                        'accent-gold': '#F59E0B',
+                        'neutral-gray': '#374151',
+                        'light-bg': '#F9FAFB'
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        };
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="font-sans text-neutral-gray">
+    <!-- @COMPONENT: Header [sticky navigation with logo and menu] -->
+    <header class="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <h1 class="text-2xl font-bold text-primary-blue">Shengze Group</h1>
+                        <p class="text-xs text-secondary-green font-medium">EST. 2007</p>
+                    </div>
+                </div>
+                
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#home" class="text-neutral-gray hover:text-primary-blue px-3 py-2 text-sm font-medium transition-colors">Home</a>
+                        <a href="#solar" class="text-neutral-gray hover:text-primary-blue px-3 py-2 text-sm font-medium transition-colors">Solar Energy</a>
+                        <a href="#engineering" class="text-neutral-gray hover:text-primary-blue px-3 py-2 text-sm font-medium transition-colors">Engineering</a>
+                        <a href="#trade" class="text-neutral-gray hover:text-primary-blue px-3 py-2 text-sm font-medium transition-colors">International Trade</a>
+                        <a href="#logistics" class="text-neutral-gray hover:text-primary-blue px-3 py-2 text-sm font-medium transition-colors">Logistics</a>
+                        <a href="#contact" class="bg-secondary-green text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-green-700 transition-colors">Contact Us</a>
+                    </div>
+                </div>
+                
+                <div class="md:hidden">
+                    <button class="text-neutral-gray hover:text-primary-blue">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- @END_COMPONENT: Header -->
+
+    <!-- @COMPONENT: Hero [main banner with value proposition] -->
+    <section id="home" class="relative min-h-screen flex items-center justify-center pt-16">
+        <!-- Modern solar panel installation with blue sky background -->
+        <div class="absolute inset-0 bg-gradient-to-br from-primary-blue/90 via-primary-blue/80 to-secondary-green/90"></div>
+        <div class="absolute inset-0" style="background-image: url('https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&h=1080'); background-size: cover; background-position: center;"></div>
+        
+        <div class="relative z-10 text-center text-white max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                Powering a <span class="text-accent-gold">Greener World</span>
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 text-gray-100 max-w-3xl mx-auto">
+                Leading solar energy solutions provider since 2007, serving 30+ countries with premium renewable energy systems, engineering excellence, and global logistics.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button class="bg-secondary-green hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105" data-event="click:scrollToSolar">
+                    Explore Solar Solutions
+                </button>
+                <button class="border-2 border-white text-white hover:bg-white hover:text-primary-blue px-8 py-4 rounded-lg text-lg font-semibold transition-all">
+                    View Our Projects
+                </button>
+            </div>
+            
+            <!-- Trust indicators -->
+            <div class="mt-12 flex flex-wrap justify-center items-center gap-8 text-sm opacity-90">
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-certificate text-accent-gold"></i>
+                    <span>TÜV Certified</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-globe text-accent-gold"></i>
+                    <span>30+ Countries</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-award text-accent-gold"></i>
+                    <span>17+ Years Experience</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-handshake text-accent-gold"></i>
+                    <span>Premium Partners</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: Hero -->
+
+    <!-- @COMPONENT: BusinessOverview [key business areas showcase] -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-neutral-gray mb-4">
+                    Diversified Excellence Across <span class="text-primary-blue">Multiple Industries</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    From renewable energy leadership to global logistics, we deliver comprehensive solutions that drive sustainable growth worldwide.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Solar Energy Card -->
+                <div class="group bg-light-bg rounded-xl p-8 text-center hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-2 border-transparent hover:border-secondary-green">
+                    <div class="w-16 h-16 bg-secondary-green/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-secondary-green/20 transition-colors">
+                        <i class="fas fa-solar-panel text-2xl text-secondary-green"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-neutral-gray mb-4">Solar Energy</h3>
+                    <p class="text-gray-600 mb-6">Premium solar panels and renewable energy systems from Jinko, LONGi, and JA Solar.</p>
+                    <div class="text-sm font-semibold text-secondary-green">Main Business</div>
+                </div>
+
+                <!-- Engineering Card -->
+                <div class="group bg-light-bg rounded-xl p-8 text-center hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-primary-blue/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary-blue/20 transition-colors">
+                        <i class="fas fa-hard-hat text-2xl text-primary-blue"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-neutral-gray mb-4">Engineering</h3>
+                    <p class="text-gray-600 mb-6">Infrastructure development including housing, hotels, roads, and bridges.</p>
+                    <div class="text-sm font-semibold text-primary-blue">Construction</div>
+                </div>
+
+                <!-- International Trade Card -->
+                <div class="group bg-light-bg rounded-xl p-8 text-center hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-accent-gold/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-accent-gold/20 transition-colors">
+                        <i class="fas fa-handshake text-2xl text-accent-gold"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-neutral-gray mb-4">International Trade</h3>
+                    <p class="text-gray-600 mb-6">EVs, building materials, electronics, and consumer goods trading.</p>
+                    <div class="text-sm font-semibold text-accent-gold">Global Commerce</div>
+                </div>
+
+                <!-- Logistics Card -->
+                <div class="group bg-light-bg rounded-xl p-8 text-center hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-purple-500/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-purple-500/20 transition-colors">
+                        <i class="fas fa-shipping-fast text-2xl text-purple-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-neutral-gray mb-4">Freight Forwarding</h3>
+                    <p class="text-gray-600 mb-6">Class-A certified logistics across sea, land, and air transportation.</p>
+                    <div class="text-sm font-semibold text-purple-500">Certified Provider</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: BusinessOverview -->
+
+    <!-- @COMPONENT: SolarEnergySection [detailed solar solutions showcase] -->
+    <section id="solar" class="py-20 bg-gradient-to-br from-light-bg to-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-neutral-gray mb-4">
+                    Leading <span class="text-secondary-green">Solar Energy Solutions</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Comprehensive renewable energy systems from world-class manufacturers, delivering clean power for residential, commercial, and industrial applications.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+                <div>
+                    <!-- Large-scale solar farm installation with mountains in background -->
+                    <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" alt="Large-scale solar farm installation" class="rounded-xl shadow-lg w-full h-auto" />
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold text-neutral-gray mb-6">Premium Solar Panel Partnerships</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-secondary-green/10 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-star text-secondary-green"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-neutral-gray">Jinko Solar</h4>
+                                <p class="text-gray-600">World's leading solar module manufacturer</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-secondary-green/10 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-star text-secondary-green"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-neutral-gray">LONGi Solar</h4>
+                                <p class="text-gray-600">Premium monocrystalline technology</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-secondary-green/10 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-star text-secondary-green"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-neutral-gray">JA Solar</h4>
+                                <p class="text-gray-600">High-efficiency photovoltaic solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Gallery -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                <!-- Residential solar installation on modern house roof -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300" alt="Residential solar installation" class="w-full h-48 object-cover" />
+                    <div class="p-6">
+                        <h4 class="font-bold text-neutral-gray mb-2">Residential Systems</h4>
+                        <p class="text-gray-600">Complete home solar solutions with battery storage and smart inverters.</p>
+                    </div>
+                </div>
+
+                <!-- Commercial solar installation on office building -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300" alt="Commercial solar installation" class="w-full h-48 object-cover" />
+                    <div class="p-6">
+                        <h4 class="font-bold text-neutral-gray mb-2">Commercial Projects</h4>
+                        <p class="text-gray-600">Scalable solutions for businesses and commercial buildings.</p>
+                    </div>
+                </div>
+
+                <!-- Industrial solar farm with technician maintenance -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300" alt="Industrial solar farm maintenance" class="w-full h-48 object-cover" />
+                    <div class="p-6">
+                        <h4 class="font-bold text-neutral-gray mb-2">Industrial Scale</h4>
+                        <p class="text-gray-600">Large-scale solar farms with comprehensive maintenance services.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="bg-white rounded-xl p-8 shadow-lg">
+                <h3 class="text-2xl font-bold text-center text-neutral-gray mb-8">International Certifications & Standards</h3>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                    <div class="flex flex-col items-center">
+                        <div class="w-16 h-16 bg-primary-blue/10 rounded-full flex items-center justify-center mb-4">
+                            <i class="fas fa-certificate text-2xl text-primary-blue"></i>
+                        </div>
+                        <h4 class="font-bold text-neutral-gray">TÜV</h4>
+                        <p class="text-sm text-gray-600">Quality Assurance</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="w-16 h-16 bg-secondary-green/10 rounded-full flex items-center justify-center mb-4">
+                            <i class="fas fa-shield-alt text-2xl text-secondary-green"></i>
+                        </div>
+                        <h4 class="font-bold text-neutral-gray">CE</h4>
+                        <p class="text-sm text-gray-600">European Conformity</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="w-16 h-16 bg-accent-gold/10 rounded-full flex items-center justify-center mb-4">
+                            <i class="fas fa-award text-2xl text-accent-gold"></i>
+                        </div>
+                        <h4 class="font-bold text-neutral-gray">IEC</h4>
+                        <p class="text-sm text-gray-600">International Standards</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="w-16 h-16 bg-purple-500/10 rounded-full flex items-center justify-center mb-4">
+                            <i class="fas fa-check-circle text-2xl text-purple-500"></i>
+                        </div>
+                        <h4 class="font-bold text-neutral-gray">UL</h4>
+                        <p class="text-sm text-gray-600">Safety Certified</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: SolarEnergySection -->
+
+    <!-- @COMPONENT: GlobalPresence [world map and countries served] -->
+    <section class="py-20 bg-neutral-gray text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    Global Presence Across <span class="text-accent-gold">30+ Countries</span>
+                </h2>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                    From Asia-Pacific to Europe, the Middle East to Africa, we deliver renewable energy solutions worldwide with local expertise and global standards.
+                </p>
+            </div>
+
+            <!-- World map background with overlay -->
+            <div class="relative bg-gradient-to-r from-primary-blue/20 to-secondary-green/20 rounded-xl p-8 mb-12">
+                <!-- Global shipping and logistics with world map background -->
+                <div class="absolute inset-0 opacity-30 rounded-xl" style="background-image: url('https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=600'); background-size: cover; background-position: center;"></div>
+                <div class="relative z-10 text-center py-16">
+                    <h3 class="text-2xl font-bold mb-4">Trusted by Clients Worldwide</h3>
+                    <p class="text-lg text-gray-300 mb-8">Delivering excellence across continents with local presence and global expertise</p>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                        <div>
+                            <div class="text-3xl font-bold text-accent-gold mb-2">30+</div>
+                            <div class="text-sm">Countries Served</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold text-accent-gold mb-2">20+</div>
+                            <div class="text-sm">International Agents</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold text-accent-gold mb-2">5</div>
+                            <div class="text-sm">Major Ports</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold text-accent-gold mb-2">17+</div>
+                            <div class="text-sm">Years Experience</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Countries Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+                <div class="bg-white/10 rounded-lg p-4 text-center hover:bg-white/20 transition-colors">
+                    <div class="text-2xl mb-2">🇦🇪</div>
+                    <div class="text-sm font-medium">UAE</div>
+                </div>
+                <div class="bg-white/10 rounded-lg p-4 text-center hover:bg-white/20 transition-colors">
+                    <div class="text-2xl mb-2">🇸🇦</div>
+                    <div class="text-sm font-medium">Saudi Arabia</div>
+                </div>
+                <div class="bg-white/10 rounded-lg p-4 text-center hover:bg-white/20 transition-colors">
+                    <div class="text-2xl mb-2">🇵🇰</div>
+                    <div class="text-sm font-medium">Pakistan</div>
+                </div>
+                <div class="bg-white/10 rounded-lg p-4 text-center hover:bg-white/20 transition-colors">
+                    <div class="text-2xl mb-2">🇮🇳</div>
+                    <div class="text-sm font-medium">India</div>
+                </div>
+                <div class="bg-white/10 rounded-lg p-4 text-center hover:bg-white/20 transition-colors">
+                    <div class="text-2xl mb-2">🇪🇬</div>
+                    <div class="text-sm font-medium">Egypt</div>
+                </div>
+                <div class="bg-white/10 rounded-lg p-4 text-center hover:bg-white/20 transition-colors">
+                    <div class="text-2xl mb-2">🇵🇭</div>
+                    <div class="text-sm font-medium">Philippines</div>
+                </div>
+                <div class="bg-white/10 rounded-lg p-4 text-center hover:bg-white/20 transition-colors">
+                    <div class="text-2xl mb-2">🇩🇪</div>
+                    <div class="text-sm font-medium">Germany</div>
+                </div>
+                <div class="bg-white/10 rounded-lg p-4 text-center hover:bg-white/20 transition-colors">
+                    <div class="text-2xl mb-2">🇿🇦</div>
+                    <div class="text-sm font-medium">South Africa</div>
+                </div>
+                <div class="bg-white/10 rounded-lg p-4 text-center hover:bg-white/20 transition-colors">
+                    <div class="text-2xl mb-2">🇹🇷</div>
+                    <div class="text-sm font-medium">Turkey</div>
+                </div>
+                <div class="bg-white/10 rounded-lg p-4 text-center hover:bg-white/20 transition-colors">
+                    <div class="text-2xl mb-2">🇧🇷</div>
+                    <div class="text-sm font-medium">Brazil</div>
+                </div>
+                <div class="bg-white/10 rounded-lg p-4 text-center hover:bg-white/20 transition-colors">
+                    <div class="text-2xl mb-2">🇰🇪</div>
+                    <div class="text-sm font-medium">Kenya</div>
+                </div>
+                <div class="bg-white/10 rounded-lg p-4 text-center hover:bg-white/20 transition-colors">
+                    <div class="text-2xl mb-2">🇲🇾</div>
+                    <div class="text-sm font-medium">Malaysia</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: GlobalPresence -->
+
+    <!-- @COMPONENT: EngineeringSection [construction and infrastructure projects] -->
+    <section id="engineering" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-neutral-gray mb-4">
+                    Engineering & <span class="text-primary-blue">Construction Excellence</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Building tomorrow's infrastructure with precision, innovation, and sustainable practices across diverse construction and development projects.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+                <!-- Modern residential housing development construction -->
+                <div class="bg-light-bg rounded-xl overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Modern residential construction development" class="w-full h-64 object-cover" />
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-neutral-gray mb-3">Residential Development</h3>
+                        <p class="text-gray-600 mb-4">Modern housing projects with sustainable design and energy-efficient systems.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-primary-blue/10 text-primary-blue px-3 py-1 rounded-full text-sm">Housing</span>
+                            <span class="bg-secondary-green/10 text-secondary-green px-3 py-1 rounded-full text-sm">Sustainable</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Luxury hotel construction with modern architecture -->
+                <div class="bg-light-bg rounded-xl overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Luxury hotel construction with modern architecture" class="w-full h-64 object-cover" />
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-neutral-gray mb-3">Hospitality Projects</h3>
+                        <p class="text-gray-600 mb-4">Premium hotels and hospitality infrastructure with world-class amenities.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-accent-gold/10 text-accent-gold px-3 py-1 rounded-full text-sm">Hotels</span>
+                            <span class="bg-purple-500/10 text-purple-500 px-3 py-1 rounded-full text-sm">Luxury</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modern bridge construction over river -->
+                <div class="bg-light-bg rounded-xl overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Modern bridge construction over river" class="w-full h-64 object-cover" />
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-neutral-gray mb-3">Infrastructure Development</h3>
+                        <p class="text-gray-600 mb-4">Roads, bridges, and critical infrastructure connecting communities.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-primary-blue/10 text-primary-blue px-3 py-1 rounded-full text-sm">Roads</span>
+                            <span class="bg-secondary-green/10 text-secondary-green px-3 py-1 rounded-full text-sm">Bridges</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Construction site with heavy machinery and workers -->
+                <div class="bg-light-bg rounded-xl overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1541976590-713941681591?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" alt="Construction site with heavy machinery and workers" class="w-full h-64 object-cover" />
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-neutral-gray mb-3">Project Management</h3>
+                        <p class="text-gray-600 mb-4">End-to-end project management with advanced technology and skilled teams.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-accent-gold/10 text-accent-gold px-3 py-1 rounded-full text-sm">Management</span>
+                            <span class="bg-purple-500/10 text-purple-500 px-3 py-1 rounded-full text-sm">Technology</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Engineering Capabilities -->
+            <div class="bg-gradient-to-br from-primary-blue/5 to-secondary-green/5 rounded-xl p-8">
+                <h3 class="text-2xl font-bold text-center text-neutral-gray mb-8">Engineering Capabilities</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-primary-blue/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-drafting-compass text-2xl text-primary-blue"></i>
+                        </div>
+                        <h4 class="font-bold text-neutral-gray mb-2">Design & Planning</h4>
+                        <p class="text-gray-600">Comprehensive architectural and engineering design services.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-secondary-green/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-tools text-2xl text-secondary-green"></i>
+                        </div>
+                        <h4 class="font-bold text-neutral-gray mb-2">Construction</h4>
+                        <p class="text-gray-600">Professional construction management and execution.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-accent-gold/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-clipboard-check text-2xl text-accent-gold"></i>
+                        </div>
+                        <h4 class="font-bold text-neutral-gray mb-2">Quality Assurance</h4>
+                        <p class="text-gray-600">Rigorous quality control and project monitoring.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: EngineeringSection -->
+
+    <!-- @COMPONENT: LogisticsSection [freight forwarding and shipping] -->
+    <section id="logistics" class="py-20 bg-light-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-neutral-gray mb-4">
+                    Global <span class="text-purple-500">Logistics & Freight Forwarding</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Class-A certified freight forwarding services connecting manufacturers, traders, and contractors worldwide through seamless multimodal transportation.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+                <div>
+                    <h3 class="text-2xl font-bold text-neutral-gray mb-6">Comprehensive Transportation Solutions</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-blue-500/10 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-ship text-blue-500"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-neutral-gray">Sea Freight</h4>
+                                <p class="text-gray-600">Full container loads (FCL) and less than container loads (LCL)</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-green-500/10 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-truck text-green-500"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-neutral-gray">Land Transportation</h4>
+                                <p class="text-gray-600">Cross-border trucking and domestic distribution</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-red-500/10 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-plane text-red-500"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-neutral-gray">Air Cargo</h4>
+                                <p class="text-gray-600">Express delivery and time-sensitive shipments</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <!-- Modern cargo port with shipping containers and cranes -->
+                    <img src="https://images.unsplash.com/photo-1605648916361-9bc12ad6a569?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" alt="Modern cargo port with shipping containers" class="rounded-xl shadow-lg w-full h-auto" />
+                </div>
+            </div>
+
+            <!-- Port Operations -->
+            <div class="bg-white rounded-xl p-8 shadow-lg mb-12">
+                <h3 class="text-2xl font-bold text-center text-neutral-gray mb-8">Major Port Operations</h3>
+                <div class="grid grid-cols-1 md:grid-cols-5 gap-6">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-purple-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-anchor text-purple-500"></i>
+                        </div>
+                        <h4 class="font-bold text-neutral-gray mb-2">Shenzhen</h4>
+                        <p class="text-sm text-gray-600">Main Hub</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-primary-blue/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-anchor text-primary-blue"></i>
+                        </div>
+                        <h4 class="font-bold text-neutral-gray mb-2">Shanghai</h4>
+                        <p class="text-sm text-gray-600">International Gateway</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-secondary-green/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-anchor text-secondary-green"></i>
+                        </div>
+                        <h4 class="font-bold text-neutral-gray mb-2">Guangzhou</h4>
+                        <p class="text-sm text-gray-600">Regional Center</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-accent-gold/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-anchor text-accent-gold"></i>
+                        </div>
+                        <h4 class="font-bold text-neutral-gray mb-2">Qingdao</h4>
+                        <p class="text-sm text-gray-600">Northern Operations</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-red-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-anchor text-red-500"></i>
+                        </div>
+                        <h4 class="font-bold text-neutral-gray mb-2">Tianjin</h4>
+                        <p class="text-sm text-gray-600">Northern Gateway</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Logistics Services Gallery -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Large shipping containers at busy international port -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300" alt="Shipping containers at international port" class="w-full h-48 object-cover" />
+                    <div class="p-6">
+                        <h4 class="font-bold text-neutral-gray mb-2">Container Shipping</h4>
+                        <p class="text-gray-600">Secure containerized cargo handling with full tracking capabilities.</p>
+                    </div>
+                </div>
+
+                <!-- Freight truck loading at warehouse dock -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300" alt="Freight truck loading at warehouse" class="w-full h-48 object-cover" />
+                    <div class="p-6">
+                        <h4 class="font-bold text-neutral-gray mb-2">Warehousing</h4>
+                        <p class="text-gray-600">Comprehensive storage and distribution services.</p>
+                    </div>
+                </div>
+
+                <!-- Professional logistics team coordinating shipments -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300" alt="Professional logistics team coordination" class="w-full h-48 object-cover" />
+                    <div class="p-6">
+                        <h4 class="font-bold text-neutral-gray mb-2">Supply Chain</h4>
+                        <p class="text-gray-600">End-to-end supply chain management solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: LogisticsSection -->
+
+    <!-- @COMPONENT: ContactSection [multiple contact forms for different business areas] -->
+    <section id="contact" class="py-20 bg-neutral-gray text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    Ready to <span class="text-accent-gold">Partner with Us?</span>
+                </h2>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                    Connect with our specialized teams for tailored solutions across solar energy, engineering, international trade, and logistics services.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Contact Form -->
+                <div class="bg-white/10 rounded-xl p-8">
+                    <h3 class="text-2xl font-bold mb-6">Get in Touch</h3>
+                    <form class="space-y-6" data-implementation="Form should handle different inquiry types and route to appropriate teams">
+                        <!-- @STATE: selectedInquiryType:string = '' -->
+                        <div>
+                            <label class="block text-sm font-medium mb-2">Inquiry Type</label>
+                            <select class="w-full bg-white/20 border border-white/30 rounded-lg px-4 py-3 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-accent-gold">
+                                <option value="" data-mock="true">Select inquiry type...</option>
+                                <option value="solar" data-mock="true">Solar Energy Solutions</option>
+                                <option value="engineering" data-mock="true">Engineering & Construction</option>
+                                <option value="trade" data-mock="true">International Trade</option>
+                                <option value="logistics" data-mock="true">Freight & Logistics</option>
+                                <option value="investment" data-mock="true">Investment Opportunities</option>
+                            </select>
+                        </div>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-medium mb-2">Name</label>
+                                <input type="text" placeholder="Your full name" class="w-full bg-white/20 border border-white/30 rounded-lg px-4 py-3 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-accent-gold" data-bind="form.name" data-mock="true">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-2">Company</label>
+                                <input type="text" placeholder="Company name" class="w-full bg-white/20 border border-white/30 rounded-lg px-4 py-3 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-accent-gold" data-bind="form.company" data-mock="true">
+                            </div>
+                        </div>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-medium mb-2">Email</label>
+                                <input type="email" placeholder="your.email@company.com" class="w-full bg-white/20 border border-white/30 rounded-lg px-4 py-3 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-accent-gold" data-bind="form.email" data-mock="true">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-2">Country</label>
+                                <input type="text" placeholder="Your country" class="w-full bg-white/20 border border-white/30 rounded-lg px-4 py-3 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-accent-gold" data-bind="form.country" data-mock="true">
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium mb-2">Project Details</label>
+                            <textarea rows="4" placeholder="Tell us about your project requirements, timeline, and budget..." class="w-full bg-white/20 border border-white/30 rounded-lg px-4 py-3 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-accent-gold" data-bind="form.details" data-mock="true"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full bg-accent-gold hover:bg-yellow-600 text-neutral-gray px-8 py-4 rounded-lg text-lg font-semibold transition-colors" data-event="click:handleContactSubmit">
+                            Send Inquiry
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="space-y-8">
+                    <div class="bg-white/10 rounded-xl p-6">
+                        <h4 class="text-xl font-bold mb-4 flex items-center gap-3">
+                            <i class="fas fa-building text-accent-gold"></i>
+                            Headquarters
+                        </h4>
+                        <p class="text-gray-300 mb-2">Shengze Group</p>
+                        <p class="text-gray-300 mb-2">Bao'an District, Shenzhen</p>
+                        <p class="text-gray-300 mb-4">Guangdong Province, China</p>
+                        <div class="flex items-center gap-2 text-accent-gold">
+                            <i class="fas fa-calendar"></i>
+                            <span>Established 2007</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-white/10 rounded-xl p-6">
+                        <h4 class="text-xl font-bold mb-4 flex items-center gap-3">
+                            <i class="fas fa-solar-panel text-secondary-green"></i>
+                            Solar Energy Division
+                        </h4>
+                        <p class="text-gray-300 mb-2">Premium solar panels & renewable systems</p>
+                        <p class="text-gray-300 mb-4">Jinko, LONGi, JA Solar partnerships</p>
+                        <!-- TODO: Add actual contact information -->
+                        <div class="text-sm text-accent-gold" data-mock="true">solar@shengzegroup.com</div>
+                    </div>
+
+                    <div class="bg-white/10 rounded-xl p-6">
+                        <h4 class="text-xl font-bold mb-4 flex items-center gap-3">
+                            <i class="fas fa-shipping-fast text-purple-500"></i>
+                            Logistics Division
+                        </h4>
+                        <p class="text-gray-300 mb-2">Class-A certified freight forwarding</p>
+                        <p class="text-gray-300 mb-4">Sea, land & air transportation</p>
+                        <!-- TODO: Add actual contact information -->
+                        <div class="text-sm text-accent-gold" data-mock="true">logistics@shengzegroup.com</div>
+                    </div>
+
+                    <div class="bg-white/10 rounded-xl p-6">
+                        <h4 class="text-xl font-bold mb-4 flex items-center gap-3">
+                            <i class="fas fa-phone text-accent-gold"></i>
+                            Quick Contact
+                        </h4>
+                        <div class="space-y-2 text-gray-300">
+                            <!-- TODO: Add actual contact information -->
+                            <div class="flex items-center gap-2" data-mock="true">
+                                <i class="fas fa-envelope text-accent-gold w-4"></i>
+                                <span>info@shengzegroup.com</span>
+                            </div>
+                            <div class="flex items-center gap-2" data-mock="true">
+                                <i class="fas fa-phone text-accent-gold w-4"></i>
+                                <span>+86 (755) 1234-5678</span>
+                            </div>
+                            <div class="flex items-center gap-2" data-mock="true">
+                                <i class="fab fa-whatsapp text-accent-gold w-4"></i>
+                                <span>+86 138-0013-8000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: ContactSection -->
+
+    <!-- @COMPONENT: Footer [company information and links] -->
+    <footer class="bg-black text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h3 class="text-2xl font-bold text-primary-blue mb-4">Shengze Group</h3>
+                    <p class="text-gray-400 mb-4">Leading diversified enterprise focused on solar energy, engineering, international trade, and global logistics since 2007.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-accent-gold transition-colors" data-mock="true">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-accent-gold transition-colors" data-mock="true">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-accent-gold transition-colors" data-mock="true">
+                            <i class="fab fa-facebook text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-accent-gold transition-colors" data-mock="true">
+                            <i class="fab fa-youtube text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Our Services</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#solar" class="hover:text-accent-gold transition-colors">Solar Energy Systems</a></li>
+                        <li><a href="#engineering" class="hover:text-accent-gold transition-colors">Engineering & Construction</a></li>
+                        <li><a href="#trade" class="hover:text-accent-gold transition-colors">International Trade</a></li>
+                        <li><a href="#logistics" class="hover:text-accent-gold transition-colors">Freight Forwarding</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Global Presence</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>30+ Countries Served</li>
+                        <li>20+ International Agents</li>
+                        <li>5 Major Chinese Ports</li>
+                        <li>Hong Kong Investment Office</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Certifications</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>TÜV Quality Assurance</li>
+                        <li>CE European Conformity</li>
+                        <li>IEC International Standards</li>
+                        <li>UL Safety Certified</li>
+                        <li>Class-A Freight License</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm">
+                    © 2024 Shengze Group. All rights reserved. | Established 2007, Shenzhen, China
+                </p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="#" class="text-gray-400 hover:text-accent-gold text-sm transition-colors" data-mock="true">Privacy Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-accent-gold text-sm transition-colors" data-mock="true">Terms of Service</a>
+                    <a href="#" class="text-gray-400 hover:text-accent-gold text-sm transition-colors" data-mock="true">Site Map</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- @END_COMPONENT: Footer -->
+
+    <script>
+        (function() {
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // Header background on scroll
+            const header = document.querySelector('header');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 100) {
+                    header.classList.add('backdrop-blur-md', 'bg-white/95');
+                } else {
+                    header.classList.remove('backdrop-blur-md', 'bg-white/95');
+                }
+            });
+
+            // Mobile menu toggle
+            const mobileMenuButton = document.querySelector('.md\\:hidden button');
+            const mobileMenu = document.querySelector('.md\\:block');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    // TODO: Implement mobile menu toggle functionality
+                    console.log('Mobile menu toggle clicked');
+                });
+            }
+
+            // Form submission handling
+            const contactForm = document.querySelector('form');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    // TODO: Implement form validation and submission
+                    console.log('Contact form submitted');
+                    alert('Thank you for your inquiry. We will contact you within 24 hours.');
+                });
+            }
+
+            // Scroll animations for cards
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+
+            // Observe cards for scroll animations
+            document.querySelectorAll('.group, .bg-white, .bg-light-bg').forEach(card => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(30px)';
+                card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(card);
+            });
+        })();
+    </script>
+</body>
+</html>

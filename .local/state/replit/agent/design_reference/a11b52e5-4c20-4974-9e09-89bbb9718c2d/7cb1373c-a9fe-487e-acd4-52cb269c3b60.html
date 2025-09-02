@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shengze Group - Leading Solar Energy & Renewable Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-blue': '#1E40AF',
+                        'secondary-green': '#059669',
+                        'accent-blue': '#3B82F6',
+                        'accent-green': '#10B981',
+                        'neutral-gray': '#374151',
+                    },
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        };
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="font-inter text-neutral-gray bg-white">
+    
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-200">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-bold text-primary-blue">
+                    <i class="fas fa-solar-panel mr-2"></i>Shengze Group
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="hover:text-accent-blue transition-colors">Home</a>
+                    <a href="#about" class="hover:text-accent-blue transition-colors">About</a>
+                    <a href="#solar" class="hover:text-accent-blue transition-colors">Solar Energy</a>
+                    <a href="#services" class="hover:text-accent-blue transition-colors">Services</a>
+                    <a href="#calculator" class="hover:text-accent-blue transition-colors">Calculator</a>
+                    <a href="#contact" class="hover:text-accent-blue transition-colors">Contact</a>
+                </div>
+                <button class="md:hidden">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-20 min-h-screen bg-gradient-to-br from-primary-blue via-accent-blue to-secondary-green text-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-black/20"></div>
+        <!-- Professional solar installation background -->
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080');"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-primary-blue/90 to-secondary-green/80"></div>
+        
+        <div class="relative container mx-auto px-6 py-20 flex items-center min-h-screen">
+            <div class="max-w-3xl">
+                <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+                    Powering a <span class="text-accent-green">Greener</span> World
+                </h1>
+                <p class="text-xl md:text-2xl mb-8 text-gray-100">
+                    Leading provider of solar energy solutions, engineering services, and global logistics. 
+                    Serving 30+ countries since 2007.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button class="bg-accent-green hover:bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
+                        <i class="fas fa-calculator mr-2"></i>Calculate Solar Savings
+                    </button>
+                    <button class="border-2 border-white text-white hover:bg-white hover:text-primary-blue px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
+                        <i class="fas fa-info-circle mr-2"></i>Learn More
+                    </button>
+                </div>
+                
+                <!-- Key Stats -->
+                <div class="grid grid-cols-3 gap-8 mt-16 pt-8 border-t border-white/30">
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-accent-green">17+</div>
+                        <div class="text-sm text-gray-200">Years Experience</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-accent-green">30+</div>
+                        <div class="text-sm text-gray-200">Countries Served</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-accent-green">1000+</div>
+                        <div class="text-sm text-gray-200">Projects Completed</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-neutral-gray mb-6">About Shengze Group</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Established in 2007 and headquartered in Shenzhen, we are a diversified enterprise 
+                    with a primary focus on solar energy and renewable technologies.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
+                <div>
+                    <!-- Professional business team meeting -->
+                    <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+                         alt="Professional business team" class="rounded-2xl shadow-lg w-full h-auto">
+                </div>
+                <div>
+                    <h3 class="text-3xl font-bold text-neutral-gray mb-6">Our Mission</h3>
+                    <p class="text-lg text-gray-600 mb-6">
+                        We are driven by the mission to empower communities and industries with clean, 
+                        efficient, and sustainable energy solutions. Through trusted partnerships and 
+                        global presence, we continue to contribute to a greener, smarter planet.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-white p-4 rounded-lg shadow-sm">
+                            <i class="fas fa-award text-accent-blue text-2xl mb-2"></i>
+                            <div class="font-semibold">Quality Certified</div>
+                            <div class="text-sm text-gray-600">TÜV, CE, IEC, UL</div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-sm">
+                            <i class="fas fa-globe text-secondary-green text-2xl mb-2"></i>
+                            <div class="font-semibold">Global Reach</div>
+                            <div class="text-sm text-gray-600">30+ Countries</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Core Values -->
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center bg-white p-8 rounded-2xl shadow-sm">
+                    <i class="fas fa-leaf text-4xl text-secondary-green mb-4"></i>
+                    <h4 class="text-xl font-bold mb-4">Sustainability</h4>
+                    <p class="text-gray-600">Committed to environmental protection and sustainable development</p>
+                </div>
+                <div class="text-center bg-white p-8 rounded-2xl shadow-sm">
+                    <i class="fas fa-lightbulb text-4xl text-accent-blue mb-4"></i>
+                    <h4 class="text-xl font-bold mb-4">Innovation</h4>
+                    <p class="text-gray-600">Constantly advancing renewable energy technology solutions</p>
+                </div>
+                <div class="text-center bg-white p-8 rounded-2xl shadow-sm">
+                    <i class="fas fa-handshake text-4xl text-accent-green mb-4"></i>
+                    <h4 class="text-xl font-bold mb-4">Partnership</h4>
+                    <p class="text-gray-600">Building lasting relationships with clients and communities</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solar & Renewable Energy Section -->
+    <section id="solar" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-neutral-gray mb-6">Solar & Renewable Energy</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Our main business focuses on manufacturing, sourcing, and global export of 
+                    high-performance solar panels and renewable energy equipment.
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12 items-center mb-16">
+                <div>
+                    <h3 class="text-3xl font-bold text-neutral-gray mb-6">Premium Solar Solutions</h3>
+                    <p class="text-lg text-gray-600 mb-6">
+                        We offer leading brands such as Jinko, LONGi, and JA Solar, delivering the latest 
+                        photovoltaic modules for residential, commercial, and industrial use.
+                    </p>
+                    
+                    <!-- Product Features -->
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-secondary-green mr-3"></i>
+                            <span>High-efficiency photovoltaic modules</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-secondary-green mr-3"></i>
+                            <span>Complete renewable energy systems</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-secondary-green mr-3"></i>
+                            <span>Inverters and battery storage solutions</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-secondary-green mr-3"></i>
+                            <span>Solar mounting structures and accessories</span>
+                        </div>
+                    </div>
+
+                    <!-- Brand Partners -->
+                    <div class="bg-gray-50 p-6 rounded-xl">
+                        <h4 class="font-semibold mb-4">Trusted Brand Partners</h4>
+                        <div class="flex flex-wrap gap-4">
+                            <span class="bg-white px-4 py-2 rounded-lg font-medium">Jinko Solar</span>
+                            <span class="bg-white px-4 py-2 rounded-lg font-medium">LONGi</span>
+                            <span class="bg-white px-4 py-2 rounded-lg font-medium">JA Solar</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-4">
+                    <!-- Solar panels on residential roof -->
+                    <img src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400" 
+                         alt="Solar panels installation" class="rounded-xl shadow-lg w-full h-auto">
+                    <!-- Large scale solar farm -->
+                    <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=300" 
+                         alt="Large scale solar farm" class="rounded-xl shadow-lg w-full h-auto">
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="bg-primary-blue text-white rounded-2xl p-8">
+                <div class="text-center mb-8">
+                    <h3 class="text-2xl font-bold mb-4">International Certifications</h3>
+                    <p class="text-blue-100">Our products meet the highest international standards</p>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                    <div class="bg-white/10 rounded-lg p-4">
+                        <i class="fas fa-certificate text-2xl mb-2"></i>
+                        <div class="font-semibold">TÜV</div>
+                    </div>
+                    <div class="bg-white/10 rounded-lg p-4">
+                        <i class="fas fa-certificate text-2xl mb-2"></i>
+                        <div class="font-semibold">CE</div>
+                    </div>
+                    <div class="bg-white/10 rounded-lg p-4">
+                        <i class="fas fa-certificate text-2xl mb-2"></i>
+                        <div class="font-semibold">IEC</div>
+                    </div>
+                    <div class="bg-white/10 rounded-lg p-4">
+                        <i class="fas fa-certificate text-2xl mb-2"></i>
+                        <div class="font-semibold">UL</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-neutral-gray mb-6">Our Services</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Beyond solar energy, we provide comprehensive services across multiple industries
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Engineering & Construction -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+                    <!-- Modern construction site -->
+                    <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250" 
+                         alt="Construction projects" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-4 text-neutral-gray">Engineering & Construction</h3>
+                        <p class="text-gray-600 mb-4">
+                            Wide range of infrastructure and real estate development projects, 
+                            including housing, hotels, roads, and bridges.
+                        </p>
+                        <div class="flex items-center text-accent-blue">
+                            <span class="font-semibold">Learn More</span>
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- International Trade -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+                    <!-- Global shipping containers -->
+                    <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250" 
+                         alt="International trade" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-4 text-neutral-gray">International Trade</h3>
+                        <p class="text-gray-600 mb-4">
+                            Diverse portfolio including electric vehicles, building materials, 
+                            electronics, home appliances, and consumer goods.
+                        </p>
+                        <div class="flex items-center text-accent-blue">
+                            <span class="font-semibold">Learn More</span>
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Logistics Services -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+                    <!-- Shipping port with containers -->
+                    <img src="https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250" 
+                         alt="Logistics services" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-4 text-neutral-gray">Freight Forwarding</h3>
+                        <p class="text-gray-600 mb-4">
+                            National Class-A freight forwarding company providing seamless 
+                            logistics services via sea, land, and air.
+                        </p>
+                        <div class="flex items-center text-accent-blue">
+                            <span class="font-semibold">Learn More</span>
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solar Impact Calculator -->
+    <section id="calculator" class="py-20 bg-gradient-to-br from-secondary-green to-accent-green text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">Solar Impact Calculator</h2>
+                <p class="text-xl text-green-100 max-w-3xl mx-auto">
+                    Calculate your potential savings and environmental impact with solar energy
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12">
+                <!-- Calculator Form -->
+                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
+                    <h3 class="text-2xl font-bold mb-6">Calculate Your Savings</h3>
+                    
+                    <div class="space-y-6">
+                        <div>
+                            <label class="block text-sm font-semibold mb-2">Roof Size (sq ft)</label>
+                            <input type="number" id="roofSize" placeholder="1000" 
+                                   class="w-full px-4 py-3 rounded-lg text-neutral-gray bg-white border-0 focus:ring-2 focus:ring-accent-green">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-semibold mb-2">Location</label>
+                            <select id="location" class="w-full px-4 py-3 rounded-lg text-neutral-gray bg-white border-0 focus:ring-2 focus:ring-accent-green">
+                                <option value="">Select your location</option>
+                                <option value="california">California, USA</option>
+                                <option value="texas">Texas, USA</option>
+                                <option value="florida">Florida, USA</option>
+                                <option value="germany">Germany</option>
+                                <option value="australia">Australia</option>
+                                <option value="india">India</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-semibold mb-2">Monthly Energy Bill ($)</label>
+                            <input type="number" id="energyBill" placeholder="150" 
+                                   class="w-full px-4 py-3 rounded-lg text-neutral-gray bg-white border-0 focus:ring-2 focus:ring-accent-green">
+                        </div>
+                        
+                        <button onclick="calculateSavings()" 
+                                class="w-full bg-accent-blue hover:bg-blue-600 text-white py-4 rounded-lg font-semibold transition-colors">
+                            <i class="fas fa-calculator mr-2"></i>Calculate Impact
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Results Display -->
+                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
+                    <h3 class="text-2xl font-bold mb-6">Your Solar Impact</h3>
+                    
+                    <div id="calculatorResults" class="space-y-6">
+                        <!-- Default state -->
+                        <div class="text-center py-8">
+                            <!-- Environmental impact visualization -->
+                            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200" 
+                                 alt="Environmental impact" class="rounded-lg mx-auto mb-4 opacity-70">
+                            <p class="text-green-100">Fill in the form to see your potential savings and environmental impact</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Global Presence -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-neutral-gray mb-6">Global Presence</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    We export to over 30 countries worldwide, supporting government energy programs, 
+                    private installations, and industrial-scale solar farms.
+                </p>
+            </div>
+
+            <!-- World map visualization -->
+            <div class="bg-gray-50 rounded-2xl p-8 mb-12 text-center">
+                <!-- Global business map -->
+                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=400" 
+                     alt="Global business presence" class="rounded-xl mx-auto mb-6 opacity-80">
+                <p class="text-lg text-gray-600">Operating across major Chinese ports and 20+ international locations</p>
+            </div>
+
+            <!-- Countries Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 text-center">
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <div class="text-2xl mb-2">🇦🇪</div>
+                    <div class="font-semibold text-sm">UAE</div>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <div class="text-2xl mb-2">🇸🇦</div>
+                    <div class="font-semibold text-sm">Saudi Arabia</div>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <div class="text-2xl mb-2">🇵🇰</div>
+                    <div class="font-semibold text-sm">Pakistan</div>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <div class="text-2xl mb-2">🇮🇳</div>
+                    <div class="font-semibold text-sm">India</div>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <div class="text-2xl mb-2">🇪🇬</div>
+                    <div class="font-semibold text-sm">Egypt</div>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <div class="text-2xl mb-2">🇵🇭</div>
+                    <div class="font-semibold text-sm">Philippines</div>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <div class="text-2xl mb-2">🇩🇪</div>
+                    <div class="font-semibold text-sm">Germany</div>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <div class="text-2xl mb-2">🇿🇦</div>
+                    <div class="font-semibold text-sm">South Africa</div>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <div class="text-2xl mb-2">🇹🇷</div>
+                    <div class="font-semibold text-sm">Turkey</div>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <div class="text-2xl mb-2">🇧🇷</div>
+                    <div class="font-semibold text-sm">Brazil</div>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <div class="text-2xl mb-2">🇰🇪</div>
+                    <div class="font-semibold text-sm">Kenya</div>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <div class="text-2xl mb-2">🇲🇾</div>
+                    <div class="font-semibold text-sm">Malaysia</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-primary-blue text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">Get in Touch</h2>
+                <p class="text-xl text-blue-100 max-w-3xl mx-auto">
+                    Ready to start your solar journey? Contact us for a consultation and quote.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                <div class="text-center bg-white/10 backdrop-blur-sm rounded-xl p-6">
+                    <i class="fas fa-map-marker-alt text-3xl mb-4 text-accent-green"></i>
+                    <h3 class="text-xl font-bold mb-2">Headquarters</h3>
+                    <p class="text-blue-100">Bao'an District<br>Shenzhen, Guangdong<br>China</p>
+                </div>
+                
+                <div class="text-center bg-white/10 backdrop-blur-sm rounded-xl p-6">
+                    <i class="fas fa-envelope text-3xl mb-4 text-accent-green"></i>
+                    <h3 class="text-xl font-bold mb-2">Email</h3>
+                    <p class="text-blue-100">info@shengzegroup.com<br>sales@shengzegroup.com</p>
+                </div>
+                
+                <div class="text-center bg-white/10 backdrop-blur-sm rounded-xl p-6">
+                    <i class="fas fa-phone text-3xl mb-4 text-accent-green"></i>
+                    <h3 class="text-xl font-bold mb-2">Phone</h3>
+                    <p class="text-blue-100">+86 755 1234 5678<br>24/7 Support Available</p>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <div class="flex justify-center space-x-6">
+                    <a href="#" class="text-2xl hover:text-accent-green transition-colors">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="text-2xl hover:text-accent-green transition-colors">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-2xl hover:text-accent-green transition-colors">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="text-2xl hover:text-accent-green transition-colors">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-neutral-gray text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="text-2xl font-bold mb-4">
+                        <i class="fas fa-solar-panel mr-2 text-accent-green"></i>Shengze Group
+                    </div>
+                    <p class="text-gray-300 mb-4">
+                        Leading provider of solar energy solutions and renewable technologies since 2007.
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Services</h4>
+                    <ul class="space-y-2 text-gray-300">
+                        <li>Solar Energy Solutions</li>
+                        <li>Engineering & Construction</li>
+                        <li>International Trade</li>
+                        <li>Global Logistics</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Markets</h4>
+                    <ul class="space-y-2 text-gray-300">
+                        <li>Residential Solar</li>
+                        <li>Commercial Solar</li>
+                        <li>Industrial Solar</li>
+                        <li>Government Projects</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Company</h4>
+                    <ul class="space-y-2 text-gray-300">
+                        <li>About Us</li>
+                        <li>Global Presence</li>
+                        <li>Certifications</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-600 mt-8 pt-8 text-center text-gray-300">
+                <p>&copy; 2024 Shengze Group. All rights reserved. | Powering a Greener World</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        (function() {
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        })();
+
+        // Solar Calculator Functionality
+        function calculateSavings() {
+            const roofSize = document.getElementById('roofSize').value;
+            const location = document.getElementById('location').value;
+            const energyBill = document.getElementById('energyBill').value;
+            
+            if (!roofSize || !location || !energyBill) {
+                alert('Please fill in all fields to calculate your savings.');
+                return;
+            }
+            
+            // TODO: Implement real calculation logic based on location data
+            const systemSize = Math.floor(roofSize / 100) * 8; // Rough estimate: 8kW per 100 sq ft
+            const annualSavings = energyBill * 12 * 0.75; // 75% reduction estimate
+            const co2Reduction = systemSize * 1.5; // Rough estimate: 1.5 tons CO2 per kW per year
+            const treesEquivalent = Math.floor(co2Reduction * 40); // 40 trees per ton of CO2
+            const twentyYearSavings = annualSavings * 20 * 0.85; // Account for inflation/degradation
+            
+            const resultsHTML = `
+                <div class="space-y-6">
+                    <div class="bg-white/20 rounded-lg p-4">
+                        <div class="text-2xl font-bold text-accent-green">${systemSize}kW</div>
+                        <div class="text-sm">Recommended System Size</div>
+                    </div>
+                    
+                    <div class="bg-white/20 rounded-lg p-4">
+                        <div class="text-2xl font-bold text-accent-green">$${annualSavings.toLocaleString()}</div>
+                        <div class="text-sm">Annual Savings</div>
+                    </div>
+                    
+                    <div class="bg-white/20 rounded-lg p-4">
+                        <div class="text-2xl font-bold text-accent-green">${co2Reduction.toFixed(1)} tons</div>
+                        <div class="text-sm">CO₂ Reduction/Year</div>
+                    </div>
+                    
+                    <div class="bg-white/20 rounded-lg p-4">
+                        <div class="text-2xl font-bold text-accent-green">${treesEquivalent}</div>
+                        <div class="text-sm">Trees Planted Equivalent</div>
+                    </div>
+                    
+                    <div class="bg-white/20 rounded-lg p-4">
+                        <div class="text-2xl font-bold text-accent-green">$${twentyYearSavings.toLocaleString()}</div>
+                        <div class="text-sm">20-Year Savings</div>
+                    </div>
+                    
+                    <div class="text-center pt-4">
+                        <button class="bg-white text-secondary-green px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                            <i class="fas fa-download mr-2"></i>Download Report
+                        </button>
+                    </div>
+                </div>
+            `;
+            
+            document.getElementById('calculatorResults').innerHTML = resultsHTML;
+        }
+
+        // Navigation scroll effect
+        (function() {
+            let lastScrollTop = 0;
+            const nav = document.querySelector('nav');
+            
+            window.addEventListener('scroll', function() {
+                let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                
+                if (scrollTop > lastScrollTop && scrollTop > 100) {
+                    nav.style.transform = 'translateY(-100%)';
+                } else {
+                    nav.style.transform = 'translateY(0)';
+                }
+                
+                lastScrollTop = scrollTop;
+            });
+        })();
+    </script>
+</body>
+</html>

@@ -1,0 +1,202 @@
+54HL4R-B
+ 430-455 Watt
+ ALL BLACK MONO-FACIAL MODULE
+ N-type
+ N-type Technology
+ N-type modules with Tunnel Oxide Passivating 
+Contacts (TOPcon) technology offer lower 
+LID/LeTID degradation and better low light 
+performance. 
+Durability Against
+ Extreme Environment
+ High salt mist and ammonia resistance.
+ SMBB Technology
+ Better light trapping and current collection 
+to improve module power output and  
+reliability.
+ HOT 3.0 Technology
+ N-type modules with JinkoSolar's HOT 
+3.0 technology offer better reliability and
+ efficiency.  
+Mechanical Load
+ Enhanced 
+Certified to withstand:
+ 6000 Pa front side max static test load
+ 4000 Pa rear side max static test load
+ Anti-PID guarantee
+ Minimizes the chance of degradation caused 
+by PID phenomena through optimization 
+of cell production technology and material 
+control.  
+100%
+ 99%
+ 87.4%
+ 1
+ 25Year
+ Product Warranty
+ 25
+ 30Year
+ Linear Power 
+Warranty
+ 1%
+ First-year 
+Degradation
+ IEC61215:2021 / IEC61730:2023
+ 30
+ 0.40%
+ Annual Degradation
+ Over 30 Years
+ ·
+ · IEC61701 / IEC62716 / IEC60068 / IEC62804
+ · ISO9001:2015: Quality Management System
+ · ISO14001:2015: Environment Management
+ System
+ · ISO45001:2018: Occupational health and 
+ safety management systems
+ JKM430-455N-54HL4R-B-F8-EN
+*Note: For specific dimensions and tolerance ranges, please
+              refer to the corresponding detailed module drawings.
+ Engineering Drawings
+ 1762±2 mm
+ 1134±2 mm
+ R4.5
+ 14
+ 9
+ 30±1
+ 33
+ 860±1 mm
+ 1400±1 mm
+ 1086±2 mm
+ A
+ A
+ A-A
+ 430
+ 32.58
+ 13.20
+ 39.16
+ 13.65
+ 21.52
+ 435
+ 32.78
+ 13.27
+ 39.36
+ 13.72
+ 21.77
+ 440
+ 32.99
+ 13.34
+ 39.57
+ 13.80
+ 22.02
+ 445
+ 33.19
+ 13.41
+ 39.77
+ 13.87
+ 22.27
+ Mechanical Characteristics
+ N -type Mono-crystalline
+ 108 (54×2)
+ 1762×1134×30 mm
+ 21.0 kg
+ 3.2mm, Anti-reflection Coating,
+ High Transmission, Low Iron, Tempered Glass
+ Anodized Aluminium Alloy
+ IP68 Rated
+ Class II
+ Class C
+ Application Conditions-40 °C ~ +70°C
+ 1000 VDC (IEC)
+ 25 A
+ Specifications (STC)
+ 0 ~ + 3 %-0.29 %/°C-0.25 %/°C
+ 0.045 %/°C
+ STC: Irradiance 1000W/m2, Cell Temperature 25°C, AM=1.5
+ Packaging Configuration
+ 1792×1140×1249 mm
+ Cell Type
+ No. of cells
+ Dimensions
+ Weight
+ Front Glass
+ Frame
+ Junction Box
+ Protection Class
+ IEC Fire Type
+ Operating Temperature
+ Maximum System Voltage
+ Maximum Series Fuse Rating
+ Maximum Power ‒ Pmax [Wp]
+ Maximum Power Voltage ‒ Vmp [V]
+ Maximum Power Current ‒ Imp [A]
+ Open-circuit Voltage ‒ Voc [V]
+ Short-circuit Current ‒ Isc [A] 
+Module Efficiency STC [%]
+ Power Tolerance
+ Temperature Coefficients of Pmax
+ Temperature Coefficients of Voc
+ Temperature Coefficients of Isc
+ Pallet Dimensions
+ Packing detail
+ (Two pallets=One stack)
+ Output Cables 4.0 mm2
+ (+): 400 mm , (-): 200 mm or Customized Length
+ Connector Type
+ 37 pcs/pallets, 74 pcs/stack,
+ 962 pcs/ 40'HQ Container
+ 455
+ 33.58
+ 13.55
+ 40.17
+ 14.01
+ 22.77
+ A A
+ 450
+ 33.39
+ 13.48
+ 39.97
+ 13.94
+ 22.52
+ Electrical Performance
+ JK03M/MC4/Others
+ Voltage (V)
+ Power ( W)
+ Power-Voltage Curves (54HL4R-B 445W)
+ Voltage (V)
+ Current (A)
+ Current-Voltage Curves (54HL4R-B 445W)
+ 1000 W/ m2
+ 800 W/ m2
+ 600 W/ m2
+ 400 W/ m2
+ 200 W/ m2
+ 0 10 20 30 40 45
+ 490
+ 420
+ 350
+ 280
+ 210
+ 140
+ 70
+ 0
+ 16
+ 14
+ 12
+ 10
+ 8
+ 6
+ 4
+ 2
+ 0
+ 0 10 20 30 40 45
+ 1000W/㎡
+800W/㎡
+600W/㎡
+400W/㎡
+200W/㎡
+© 2024 Jinko Solar Co., Ltd. All rights reserved. 
+ 
+www.jinkosolar.com
+ JKM430-455N-54HL4R-B-F8-EN
+ Note: Please read the safety and installation manual before using the product. We reserve the right of final   
+             interpretation. The specifications in this datasheet are subject to change without notice. 
